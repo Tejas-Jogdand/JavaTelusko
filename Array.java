@@ -14,12 +14,28 @@ public class Array {
         // }
 
         int nums[][] = new int[2][3];
+       
 
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
-                System.out.print(nums[i][j]);
+            for (int j = 0; j < nums[i].length; j++) {
+                nums[i][j] = (int)(Math.random()*10);
             }
-            System.out.println("");
+        }
+
+
+        // for (int i = 0; i < nums.length; i++) {
+        //     for (int j = 0; j < nums[i].length; j++) {
+        //         System.out.print(nums[i][j]);
+        //     }
+        //     System.out.println("");
+        // }
+        
+        //Advance loop
+
+        for(int n[] : nums ){
+            for(int m : n)
+            System.out.print(m + " ");
+            System.out.println();
         }
 
     }
