@@ -9,7 +9,8 @@ $ Why does the array is initalized using new keyword?
 
 
 [Unsolved]
-$ What if we create the objects of same name (normal also and annonymous also)? [Unsloved]
+$ What if we create the objects of same name (normal also and annonymous also)?
+$ Why can't we use super and this methods at once?
 
 #TO DO
 
